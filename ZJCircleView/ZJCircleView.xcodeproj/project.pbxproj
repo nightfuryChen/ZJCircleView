@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7444EAB81D29F51100FEDAF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EAB71D29F51100FEDAF8 /* main.m */; };
+		7444EABB1D29F51100FEDAF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EABA1D29F51100FEDAF8 /* AppDelegate.m */; };
+		7444EABE1D29F51100FEDAF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EABD1D29F51100FEDAF8 /* ViewController.m */; };
+		7444EAC11D29F51100FEDAF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7444EABF1D29F51100FEDAF8 /* Main.storyboard */; };
+		7444EAC31D29F51100FEDAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7444EAC21D29F51100FEDAF8 /* Assets.xcassets */; };
+		7444EAC61D29F51100FEDAF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7444EAC41D29F51100FEDAF8 /* LaunchScreen.storyboard */; };
+		7444EAD11D29F51100FEDAF8 /* ZJCircleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EAD01D29F51100FEDAF8 /* ZJCircleViewTests.m */; };
+		7444EADC1D29F51100FEDAF8 /* ZJCircleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EADB1D29F51100FEDAF8 /* ZJCircleViewUITests.m */; };
+		7444EAEE1D29F57600FEDAF8 /* CircleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EAEB1D29F57600FEDAF8 /* CircleCollectionViewCell.m */; };
+		7444EAEF1D29F57600FEDAF8 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EAED1D29F57600FEDAF8 /* CircleView.m */; };
+		7444EB121D29F5BA00FEDAF8 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EAF21D29F5BA00FEDAF8 /* MKAnnotationView+WebCache.m */; };
+		7444EB131D29F5BA00FEDAF8 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EAF41D29F5BA00FEDAF8 /* NSData+ImageContentType.m */; };
+		7444EB141D29F5BA00FEDAF8 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EAF61D29F5BA00FEDAF8 /* SDImageCache.m */; };
+		7444EB151D29F5BA00FEDAF8 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EAF81D29F5BA00FEDAF8 /* SDWebImageCompat.m */; };
+		7444EB161D29F5BA00FEDAF8 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EAFA1D29F5BA00FEDAF8 /* SDWebImageDecoder.m */; };
+		7444EB171D29F5BA00FEDAF8 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EAFC1D29F5BA00FEDAF8 /* SDWebImageDownloader.m */; };
+		7444EB181D29F5BA00FEDAF8 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EAFE1D29F5BA00FEDAF8 /* SDWebImageDownloaderOperation.m */; };
+		7444EB191D29F5BA00FEDAF8 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EB001D29F5BA00FEDAF8 /* SDWebImageManager.m */; };
+		7444EB1A1D29F5BA00FEDAF8 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EB031D29F5BA00FEDAF8 /* SDWebImagePrefetcher.m */; };
+		7444EB1B1D29F5BA00FEDAF8 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EB051D29F5BA00FEDAF8 /* UIButton+WebCache.m */; };
+		7444EB1C1D29F5BA00FEDAF8 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EB071D29F5BA00FEDAF8 /* UIImage+GIF.m */; };
+		7444EB1D1D29F5BA00FEDAF8 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EB091D29F5BA00FEDAF8 /* UIImage+MultiFormat.m */; };
+		7444EB1E1D29F5BA00FEDAF8 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EB0B1D29F5BA00FEDAF8 /* UIImage+WebP.m */; };
+		7444EB1F1D29F5BA00FEDAF8 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EB0D1D29F5BA00FEDAF8 /* UIImageView+HighlightedWebCache.m */; };
+		7444EB201D29F5BA00FEDAF8 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EB0F1D29F5BA00FEDAF8 /* UIImageView+WebCache.m */; };
+		7444EB211D29F5BA00FEDAF8 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444EB111D29F5BA00FEDAF8 /* UIView+WebCacheOperation.m */; };
+		7444EB291D2A043B00FEDAF8 /* S1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7444EB231D2A043B00FEDAF8 /* S1.jpg */; };
+		7444EB2A1D2A043B00FEDAF8 /* S2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7444EB241D2A043B00FEDAF8 /* S2.jpg */; };
+		7444EB2B1D2A043B00FEDAF8 /* S3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7444EB251D2A043B00FEDAF8 /* S3.jpg */; };
+		7444EB2C1D2A043B00FEDAF8 /* S4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7444EB261D2A043B00FEDAF8 /* S4.jpg */; };
+		7444EB2D1D2A043B00FEDAF8 /* S5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7444EB271D2A043B00FEDAF8 /* S5.jpg */; };
+		7444EB2E1D2A043B00FEDAF8 /* S6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7444EB281D2A043B00FEDAF8 /* S6.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7444EACD1D29F51100FEDAF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7444EAAB1D29F51100FEDAF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7444EAB21D29F51100FEDAF8;
+			remoteInfo = ZJCircleView;
+		};
+		7444EAD81D29F51100FEDAF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7444EAAB1D29F51100FEDAF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7444EAB21D29F51100FEDAF8;
+			remoteInfo = ZJCircleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7444EAB31D29F51100FEDAF8 /* ZJCircleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJCircleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7444EAB71D29F51100FEDAF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7444EAB91D29F51100FEDAF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7444EABA1D29F51100FEDAF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7444EABC1D29F51100FEDAF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7444EABD1D29F51100FEDAF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7444EAC01D29F51100FEDAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7444EAC21D29F51100FEDAF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7444EAC51D29F51100FEDAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7444EAC71D29F51100FEDAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7444EACC1D29F51100FEDAF8 /* ZJCircleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJCircleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7444EAD01D29F51100FEDAF8 /* ZJCircleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJCircleViewTests.m; sourceTree = "<group>"; };
+		7444EAD21D29F51100FEDAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7444EAD71D29F51100FEDAF8 /* ZJCircleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJCircleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7444EADB1D29F51100FEDAF8 /* ZJCircleViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJCircleViewUITests.m; sourceTree = "<group>"; };
+		7444EADD1D29F51100FEDAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7444EAEA1D29F57600FEDAF8 /* CircleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCollectionViewCell.h; sourceTree = "<group>"; };
+		7444EAEB1D29F57600FEDAF8 /* CircleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCollectionViewCell.m; sourceTree = "<group>"; };
+		7444EAEC1D29F57600FEDAF8 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		7444EAED1D29F57600FEDAF8 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		7444EAF11D29F5BA00FEDAF8 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		7444EAF21D29F5BA00FEDAF8 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		7444EAF31D29F5BA00FEDAF8 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		7444EAF41D29F5BA00FEDAF8 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		7444EAF51D29F5BA00FEDAF8 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		7444EAF61D29F5BA00FEDAF8 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		7444EAF71D29F5BA00FEDAF8 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		7444EAF81D29F5BA00FEDAF8 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		7444EAF91D29F5BA00FEDAF8 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		7444EAFA1D29F5BA00FEDAF8 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		7444EAFB1D29F5BA00FEDAF8 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		7444EAFC1D29F5BA00FEDAF8 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		7444EAFD1D29F5BA00FEDAF8 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		7444EAFE1D29F5BA00FEDAF8 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		7444EAFF1D29F5BA00FEDAF8 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		7444EB001D29F5BA00FEDAF8 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		7444EB011D29F5BA00FEDAF8 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		7444EB021D29F5BA00FEDAF8 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		7444EB031D29F5BA00FEDAF8 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		7444EB041D29F5BA00FEDAF8 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		7444EB051D29F5BA00FEDAF8 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		7444EB061D29F5BA00FEDAF8 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		7444EB071D29F5BA00FEDAF8 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		7444EB081D29F5BA00FEDAF8 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		7444EB091D29F5BA00FEDAF8 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		7444EB0A1D29F5BA00FEDAF8 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		7444EB0B1D29F5BA00FEDAF8 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		7444EB0C1D29F5BA00FEDAF8 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		7444EB0D1D29F5BA00FEDAF8 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		7444EB0E1D29F5BA00FEDAF8 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		7444EB0F1D29F5BA00FEDAF8 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		7444EB101D29F5BA00FEDAF8 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		7444EB111D29F5BA00FEDAF8 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		7444EB231D2A043B00FEDAF8 /* S1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = S1.jpg; sourceTree = "<group>"; };
+		7444EB241D2A043B00FEDAF8 /* S2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = S2.jpg; sourceTree = "<group>"; };
+		7444EB251D2A043B00FEDAF8 /* S3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = S3.jpg; sourceTree = "<group>"; };
+		7444EB261D2A043B00FEDAF8 /* S4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = S4.jpg; sourceTree = "<group>"; };
+		7444EB271D2A043B00FEDAF8 /* S5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = S5.jpg; sourceTree = "<group>"; };
+		7444EB281D2A043B00FEDAF8 /* S6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = S6.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7444EAB01D29F51100FEDAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7444EAC91D29F51100FEDAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7444EAD41D29F51100FEDAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7444EAAA1D29F51100FEDAF8 = {
+			isa = PBXGroup;
+			children = (
+				7444EAB51D29F51100FEDAF8 /* ZJCircleView */,
+				7444EACF1D29F51100FEDAF8 /* ZJCircleViewTests */,
+				7444EADA1D29F51100FEDAF8 /* ZJCircleViewUITests */,
+				7444EAB41D29F51100FEDAF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7444EAB41D29F51100FEDAF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7444EAB31D29F51100FEDAF8 /* ZJCircleView.app */,
+				7444EACC1D29F51100FEDAF8 /* ZJCircleViewTests.xctest */,
+				7444EAD71D29F51100FEDAF8 /* ZJCircleViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7444EAB51D29F51100FEDAF8 /* ZJCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				7444EAB91D29F51100FEDAF8 /* AppDelegate.h */,
+				7444EABA1D29F51100FEDAF8 /* AppDelegate.m */,
+				7444EABC1D29F51100FEDAF8 /* ViewController.h */,
+				7444EABD1D29F51100FEDAF8 /* ViewController.m */,
+				7444EB221D2A043B00FEDAF8 /* SuperF4Pic */,
+				7444EAE91D29F57600FEDAF8 /* CircleView-ARC */,
+				7444EABF1D29F51100FEDAF8 /* Main.storyboard */,
+				7444EAC21D29F51100FEDAF8 /* Assets.xcassets */,
+				7444EAC41D29F51100FEDAF8 /* LaunchScreen.storyboard */,
+				7444EAC71D29F51100FEDAF8 /* Info.plist */,
+				7444EAB61D29F51100FEDAF8 /* Supporting Files */,
+			);
+			path = ZJCircleView;
+			sourceTree = "<group>";
+		};
+		7444EAB61D29F51100FEDAF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7444EAB71D29F51100FEDAF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7444EACF1D29F51100FEDAF8 /* ZJCircleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7444EAD01D29F51100FEDAF8 /* ZJCircleViewTests.m */,
+				7444EAD21D29F51100FEDAF8 /* Info.plist */,
+			);
+			path = ZJCircleViewTests;
+			sourceTree = "<group>";
+		};
+		7444EADA1D29F51100FEDAF8 /* ZJCircleViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7444EADB1D29F51100FEDAF8 /* ZJCircleViewUITests.m */,
+				7444EADD1D29F51100FEDAF8 /* Info.plist */,
+			);
+			path = ZJCircleViewUITests;
+			sourceTree = "<group>";
+		};
+		7444EAE91D29F57600FEDAF8 /* CircleView-ARC */ = {
+			isa = PBXGroup;
+			children = (
+				7444EAF01D29F5BA00FEDAF8 /* SDWebImage */,
+				7444EAEA1D29F57600FEDAF8 /* CircleCollectionViewCell.h */,
+				7444EAEB1D29F57600FEDAF8 /* CircleCollectionViewCell.m */,
+				7444EAEC1D29F57600FEDAF8 /* CircleView.h */,
+				7444EAED1D29F57600FEDAF8 /* CircleView.m */,
+			);
+			path = "CircleView-ARC";
+			sourceTree = "<group>";
+		};
+		7444EAF01D29F5BA00FEDAF8 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				7444EAF11D29F5BA00FEDAF8 /* MKAnnotationView+WebCache.h */,
+				7444EAF21D29F5BA00FEDAF8 /* MKAnnotationView+WebCache.m */,
+				7444EAF31D29F5BA00FEDAF8 /* NSData+ImageContentType.h */,
+				7444EAF41D29F5BA00FEDAF8 /* NSData+ImageContentType.m */,
+				7444EAF51D29F5BA00FEDAF8 /* SDImageCache.h */,
+				7444EAF61D29F5BA00FEDAF8 /* SDImageCache.m */,
+				7444EAF71D29F5BA00FEDAF8 /* SDWebImageCompat.h */,
+				7444EAF81D29F5BA00FEDAF8 /* SDWebImageCompat.m */,
+				7444EAF91D29F5BA00FEDAF8 /* SDWebImageDecoder.h */,
+				7444EAFA1D29F5BA00FEDAF8 /* SDWebImageDecoder.m */,
+				7444EAFB1D29F5BA00FEDAF8 /* SDWebImageDownloader.h */,
+				7444EAFC1D29F5BA00FEDAF8 /* SDWebImageDownloader.m */,
+				7444EAFD1D29F5BA00FEDAF8 /* SDWebImageDownloaderOperation.h */,
+				7444EAFE1D29F5BA00FEDAF8 /* SDWebImageDownloaderOperation.m */,
+				7444EAFF1D29F5BA00FEDAF8 /* SDWebImageManager.h */,
+				7444EB001D29F5BA00FEDAF8 /* SDWebImageManager.m */,
+				7444EB011D29F5BA00FEDAF8 /* SDWebImageOperation.h */,
+				7444EB021D29F5BA00FEDAF8 /* SDWebImagePrefetcher.h */,
+				7444EB031D29F5BA00FEDAF8 /* SDWebImagePrefetcher.m */,
+				7444EB041D29F5BA00FEDAF8 /* UIButton+WebCache.h */,
+				7444EB051D29F5BA00FEDAF8 /* UIButton+WebCache.m */,
+				7444EB061D29F5BA00FEDAF8 /* UIImage+GIF.h */,
+				7444EB071D29F5BA00FEDAF8 /* UIImage+GIF.m */,
+				7444EB081D29F5BA00FEDAF8 /* UIImage+MultiFormat.h */,
+				7444EB091D29F5BA00FEDAF8 /* UIImage+MultiFormat.m */,
+				7444EB0A1D29F5BA00FEDAF8 /* UIImage+WebP.h */,
+				7444EB0B1D29F5BA00FEDAF8 /* UIImage+WebP.m */,
+				7444EB0C1D29F5BA00FEDAF8 /* UIImageView+HighlightedWebCache.h */,
+				7444EB0D1D29F5BA00FEDAF8 /* UIImageView+HighlightedWebCache.m */,
+				7444EB0E1D29F5BA00FEDAF8 /* UIImageView+WebCache.h */,
+				7444EB0F1D29F5BA00FEDAF8 /* UIImageView+WebCache.m */,
+				7444EB101D29F5BA00FEDAF8 /* UIView+WebCacheOperation.h */,
+				7444EB111D29F5BA00FEDAF8 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		7444EB221D2A043B00FEDAF8 /* SuperF4Pic */ = {
+			isa = PBXGroup;
+			children = (
+				7444EB231D2A043B00FEDAF8 /* S1.jpg */,
+				7444EB241D2A043B00FEDAF8 /* S2.jpg */,
+				7444EB251D2A043B00FEDAF8 /* S3.jpg */,
+				7444EB261D2A043B00FEDAF8 /* S4.jpg */,
+				7444EB271D2A043B00FEDAF8 /* S5.jpg */,
+				7444EB281D2A043B00FEDAF8 /* S6.jpg */,
+			);
+			path = SuperF4Pic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7444EAB21D29F51100FEDAF8 /* ZJCircleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7444EAE01D29F51100FEDAF8 /* Build configuration list for PBXNativeTarget "ZJCircleView" */;
+			buildPhases = (
+				7444EAAF1D29F51100FEDAF8 /* Sources */,
+				7444EAB01D29F51100FEDAF8 /* Frameworks */,
+				7444EAB11D29F51100FEDAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJCircleView;
+			productName = ZJCircleView;
+			productReference = 7444EAB31D29F51100FEDAF8 /* ZJCircleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7444EACB1D29F51100FEDAF8 /* ZJCircleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7444EAE31D29F51100FEDAF8 /* Build configuration list for PBXNativeTarget "ZJCircleViewTests" */;
+			buildPhases = (
+				7444EAC81D29F51100FEDAF8 /* Sources */,
+				7444EAC91D29F51100FEDAF8 /* Frameworks */,
+				7444EACA1D29F51100FEDAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7444EACE1D29F51100FEDAF8 /* PBXTargetDependency */,
+			);
+			name = ZJCircleViewTests;
+			productName = ZJCircleViewTests;
+			productReference = 7444EACC1D29F51100FEDAF8 /* ZJCircleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7444EAD61D29F51100FEDAF8 /* ZJCircleViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7444EAE61D29F51100FEDAF8 /* Build configuration list for PBXNativeTarget "ZJCircleViewUITests" */;
+			buildPhases = (
+				7444EAD31D29F51100FEDAF8 /* Sources */,
+				7444EAD41D29F51100FEDAF8 /* Frameworks */,
+				7444EAD51D29F51100FEDAF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7444EAD91D29F51100FEDAF8 /* PBXTargetDependency */,
+			);
+			name = ZJCircleViewUITests;
+			productName = ZJCircleViewUITests;
+			productReference = 7444EAD71D29F51100FEDAF8 /* ZJCircleViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7444EAAB1D29F51100FEDAF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Chen;
+				TargetAttributes = {
+					7444EAB21D29F51100FEDAF8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7444EACB1D29F51100FEDAF8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7444EAB21D29F51100FEDAF8;
+					};
+					7444EAD61D29F51100FEDAF8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7444EAB21D29F51100FEDAF8;
+					};
+				};
+			};
+			buildConfigurationList = 7444EAAE1D29F51100FEDAF8 /* Build configuration list for PBXProject "ZJCircleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7444EAAA1D29F51100FEDAF8;
+			productRefGroup = 7444EAB41D29F51100FEDAF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7444EAB21D29F51100FEDAF8 /* ZJCircleView */,
+				7444EACB1D29F51100FEDAF8 /* ZJCircleViewTests */,
+				7444EAD61D29F51100FEDAF8 /* ZJCircleViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7444EAB11D29F51100FEDAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7444EB2A1D2A043B00FEDAF8 /* S2.jpg in Resources */,
+				7444EAC61D29F51100FEDAF8 /* LaunchScreen.storyboard in Resources */,
+				7444EB291D2A043B00FEDAF8 /* S1.jpg in Resources */,
+				7444EAC31D29F51100FEDAF8 /* Assets.xcassets in Resources */,
+				7444EB2C1D2A043B00FEDAF8 /* S4.jpg in Resources */,
+				7444EB2D1D2A043B00FEDAF8 /* S5.jpg in Resources */,
+				7444EAC11D29F51100FEDAF8 /* Main.storyboard in Resources */,
+				7444EB2B1D2A043B00FEDAF8 /* S3.jpg in Resources */,
+				7444EB2E1D2A043B00FEDAF8 /* S6.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7444EACA1D29F51100FEDAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7444EAD51D29F51100FEDAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7444EAAF1D29F51100FEDAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7444EABE1D29F51100FEDAF8 /* ViewController.m in Sources */,
+				7444EB1F1D29F5BA00FEDAF8 /* UIImageView+HighlightedWebCache.m in Sources */,
+				7444EB201D29F5BA00FEDAF8 /* UIImageView+WebCache.m in Sources */,
+				7444EB1E1D29F5BA00FEDAF8 /* UIImage+WebP.m in Sources */,
+				7444EB1A1D29F5BA00FEDAF8 /* SDWebImagePrefetcher.m in Sources */,
+				7444EAEF1D29F57600FEDAF8 /* CircleView.m in Sources */,
+				7444EB161D29F5BA00FEDAF8 /* SDWebImageDecoder.m in Sources */,
+				7444EB171D29F5BA00FEDAF8 /* SDWebImageDownloader.m in Sources */,
+				7444EABB1D29F51100FEDAF8 /* AppDelegate.m in Sources */,
+				7444EB191D29F5BA00FEDAF8 /* SDWebImageManager.m in Sources */,
+				7444EB211D29F5BA00FEDAF8 /* UIView+WebCacheOperation.m in Sources */,
+				7444EB1B1D29F5BA00FEDAF8 /* UIButton+WebCache.m in Sources */,
+				7444EB1D1D29F5BA00FEDAF8 /* UIImage+MultiFormat.m in Sources */,
+				7444EAEE1D29F57600FEDAF8 /* CircleCollectionViewCell.m in Sources */,
+				7444EB181D29F5BA00FEDAF8 /* SDWebImageDownloaderOperation.m in Sources */,
+				7444EB1C1D29F5BA00FEDAF8 /* UIImage+GIF.m in Sources */,
+				7444EB151D29F5BA00FEDAF8 /* SDWebImageCompat.m in Sources */,
+				7444EB131D29F5BA00FEDAF8 /* NSData+ImageContentType.m in Sources */,
+				7444EAB81D29F51100FEDAF8 /* main.m in Sources */,
+				7444EB121D29F5BA00FEDAF8 /* MKAnnotationView+WebCache.m in Sources */,
+				7444EB141D29F5BA00FEDAF8 /* SDImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7444EAC81D29F51100FEDAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7444EAD11D29F51100FEDAF8 /* ZJCircleViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7444EAD31D29F51100FEDAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7444EADC1D29F51100FEDAF8 /* ZJCircleViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7444EACE1D29F51100FEDAF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7444EAB21D29F51100FEDAF8 /* ZJCircleView */;
+			targetProxy = 7444EACD1D29F51100FEDAF8 /* PBXContainerItemProxy */;
+		};
+		7444EAD91D29F51100FEDAF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7444EAB21D29F51100FEDAF8 /* ZJCircleView */;
+			targetProxy = 7444EAD81D29F51100FEDAF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7444EABF1D29F51100FEDAF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7444EAC01D29F51100FEDAF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7444EAC41D29F51100FEDAF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7444EAC51D29F51100FEDAF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7444EADE1D29F51100FEDAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7444EADF1D29F51100FEDAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7444EAE11D29F51100FEDAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJCircleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.ZJCircleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7444EAE21D29F51100FEDAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJCircleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.ZJCircleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7444EAE41D29F51100FEDAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJCircleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.ZJCircleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJCircleView.app/ZJCircleView";
+			};
+			name = Debug;
+		};
+		7444EAE51D29F51100FEDAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJCircleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.ZJCircleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJCircleView.app/ZJCircleView";
+			};
+			name = Release;
+		};
+		7444EAE71D29F51100FEDAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJCircleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.ZJCircleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJCircleView;
+			};
+			name = Debug;
+		};
+		7444EAE81D29F51100FEDAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJCircleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.ZJCircleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJCircleView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7444EAAE1D29F51100FEDAF8 /* Build configuration list for PBXProject "ZJCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7444EADE1D29F51100FEDAF8 /* Debug */,
+				7444EADF1D29F51100FEDAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7444EAE01D29F51100FEDAF8 /* Build configuration list for PBXNativeTarget "ZJCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7444EAE11D29F51100FEDAF8 /* Debug */,
+				7444EAE21D29F51100FEDAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7444EAE31D29F51100FEDAF8 /* Build configuration list for PBXNativeTarget "ZJCircleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7444EAE41D29F51100FEDAF8 /* Debug */,
+				7444EAE51D29F51100FEDAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7444EAE61D29F51100FEDAF8 /* Build configuration list for PBXNativeTarget "ZJCircleViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7444EAE71D29F51100FEDAF8 /* Debug */,
+				7444EAE81D29F51100FEDAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7444EAAB1D29F51100FEDAF8 /* Project object */;
+}
